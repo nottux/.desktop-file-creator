@@ -12,7 +12,7 @@ fi
 echo "Enter the .desktop file with directory"
 read n
 m=$(eval "echo $(echo \$$n)")
-if [ -n "$m" -a $n = $(echo $n | tr -d /) ]
+if [ -n "$m" -a $n = $(echo $n | tr -d "/") ]
 then echo "$m path selected, enter the .desktop file name"
 read v
 n=$(echo "$m/$v")
