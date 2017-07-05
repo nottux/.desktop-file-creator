@@ -6,7 +6,7 @@ eval $(cat "$HOME/desktop_file_locations.txt" | while read -r line; do echo "$li
 else echo "$HOME/desktop_file_locations.txt is not found, you can create the file and enter the short names of locations like that :"
 echo "location1=\"/home/someuser/somefolder\""
 echo "location_2=\"/home/user/some folder\""
-echo "Don't use a,x,i,t,c,n,m,v and b as short name"
+echo "Don't use a,x,i,t,c,n,m,v and b as short name and don't use any special characters"
 fi
 echo "Enter the .desktop file with directory"
 read n
