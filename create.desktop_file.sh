@@ -1,3 +1,4 @@
+#!/bin/sh
 if [ -f "$HOME/desktop_file_locations.txt" ]
 then echo "Here are the locations in $HOME/desktop_file_locations.txt file :"
 cat "$HOME/desktop_file_locations.txt"
